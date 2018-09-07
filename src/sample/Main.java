@@ -46,6 +46,8 @@ public class Main extends Application {
         querryResult = new SimpleStringProperty("");
         querry_result_ta.textProperty().bindBidirectional(querryResult);
 
+        querry_ta.setText("select * from `hasandb`.`brothers_table`");
+
         start_querry_but.setOnAction(new EventHandler< ActionEvent >(){
             @Override
             public void handle(ActionEvent event) {
