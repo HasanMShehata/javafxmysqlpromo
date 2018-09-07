@@ -39,6 +39,7 @@ public class Main extends Application {
         System.out.println("othe edit");
 
 
+        System.out.println("my edit 2");
         System.out.println("my edit");
 
 
