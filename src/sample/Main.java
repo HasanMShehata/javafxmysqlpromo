@@ -38,6 +38,8 @@ public class Main extends Application {
 
 
 
+        System.out.println("my edit");
+
 
         start_querry_but = (Button) scene_.lookup("#start_querry_but");
         querry_ta = (TextArea) scene_.lookup("#querry_ta");
